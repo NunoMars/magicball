@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "ball8.apps.Ball8Config",
     "magicball.apps.MagicballConfig",]
 
 
@@ -85,7 +84,7 @@ WSGI_APPLICATION = "magicballconfig.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "magicBall",
+        "NAME": "magicball",
         "USER": "Nuno",
         "PASSWORD": "bcxau9p^^123.",
         "HOST": "127.0.0.1",
