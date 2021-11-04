@@ -1,8 +1,8 @@
 from django.test import TestCase
-from ball8.models import Sentences
+from magicball.models import Sentences
 
 
-class Ball8ModelsTest(TestCase):
+class MagicballModelsTest(TestCase):
     def test_sentence_create(self):
         sentence = Sentences.objects.create(sentence="Test sentence")
         s = Sentences.objects.get(sentence="Test sentence")
